@@ -1,0 +1,24 @@
+﻿@model IEnumerable<ProjeotJsonAjax.ApplicattionAjax.ViewModels.Cliente>
+<div id="DivListCliente">
+    <table class="table table-responsive">
+        <thead>
+            <tr>
+
+                <th>Name</th>
+                <th>Last Name</th>
+                <th>City</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Nome</td>
+                    <th>@item.SobreNome</th>
+                    <th>@item.Cidade</th>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

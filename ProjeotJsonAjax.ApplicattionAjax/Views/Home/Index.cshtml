@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="container">
+    <br /><br />
+    <h3>Lista de dados</h3>
+    <br />
+    <button type="button" class="btn btn-success btnSend">
+        <span class="glyphicon glyphicon-search"> Search</span>
+    </button>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome
+                <th>
+                <th>SobreNome
+                <th>
+                <th>Cidade
+                <th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr></tr>
+        </tbody>
+    </table>
+</div>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('.btnSend').click(function () {
+            var cliente = { Nome: ' go freelancer' }
+            $.ajax({
+                type: "POST",
+                contentType: "application/json;charset=utf-8",
+                data: "{cliente:" + JSON.stringify(cliente) + "}",
+                url: "/Home/ListarDados",
+                success: function (data) {
+                    alert("cliente nome" + data);
+                },
+                error: function (result) {
+                    alert("Something went wrong");
+                }
+            });
+        })
+    });
+</script>

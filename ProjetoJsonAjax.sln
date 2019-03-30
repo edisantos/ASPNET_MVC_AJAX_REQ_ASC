@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjeotJsonAjax.ApplicattionAjax", "ProjeotJsonAjax.ApplicattionAjax\ProjeotJsonAjax.ApplicattionAjax.csproj", "{302FFB36-6B94-448C-9D46-C65CF4DAFF95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{302FFB36-6B94-448C-9D46-C65CF4DAFF95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302FFB36-6B94-448C-9D46-C65CF4DAFF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302FFB36-6B94-448C-9D46-C65CF4DAFF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302FFB36-6B94-448C-9D46-C65CF4DAFF95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2199BC9-1B74-4F29-B7F3-EB05D9F1ABCB}
+	EndGlobalSection
+EndGlobal
