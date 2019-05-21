@@ -72,10 +72,9 @@ F:\Projetos\ProjetoJsonAjax\ProjetoJsonAjax\ProjeotJsonAjax.ApplicattionAjax\bin
 F:\Projetos\ProjetoJsonAjax\ProjetoJsonAjax\ProjeotJsonAjax.ApplicattionAjax\bin\pt-br\System.Web.Webpages.Razor.resources.dll
 F:\Projetos\ProjetoJsonAjax\ProjetoJsonAjax\ProjeotJsonAjax.ApplicattionAjax\bin\pt-br\System.Web.Helpers.resources.dll
 F:\Projetos\ProjetoJsonAjax\ProjetoJsonAjax\ProjeotJsonAjax.ApplicattionAjax\bin\pt-br\System.Web.Mvc.resources.dll
-F:\Projetos\ProjetoJsonAjax\ProjetoJsonAjax\ProjeotJsonAjax.ApplicattionAjax\obj\Debug\ProjeotJsonAjax.ApplicattionAjax.csprojAssemblyReference.cache
+F:\Projetos\ProjetoJsonAjax\ProjetoJsonAjax\ProjeotJsonAjax.ApplicattionAjax\obj\Debug\ProjeotJsonAjax.ApplicattionAjax.Migrations.InitialModel.resources
+F:\Projetos\ProjetoJsonAjax\ProjetoJsonAjax\ProjeotJsonAjax.ApplicattionAjax\obj\Debug\ProjeotJsonAjax.ApplicattionAjax.csproj.GenerateResource.cache
 F:\Projetos\ProjetoJsonAjax\ProjetoJsonAjax\ProjeotJsonAjax.ApplicattionAjax\obj\Debug\ProjeotJsonAjax.ApplicattionAjax.csproj.CoreCompileInputs.cache
 F:\Projetos\ProjetoJsonAjax\ProjetoJsonAjax\ProjeotJsonAjax.ApplicattionAjax\obj\Debug\ProjeotJsonAjax.ApplicattionAjax.csproj.CopyComplete
 F:\Projetos\ProjetoJsonAjax\ProjetoJsonAjax\ProjeotJsonAjax.ApplicattionAjax\obj\Debug\ProjeotJsonAjax.ApplicattionAjax.dll
 F:\Projetos\ProjetoJsonAjax\ProjetoJsonAjax\ProjeotJsonAjax.ApplicattionAjax\obj\Debug\ProjeotJsonAjax.ApplicattionAjax.pdb
-F:\Projetos\ProjetoJsonAjax\ProjetoJsonAjax\ProjeotJsonAjax.ApplicattionAjax\obj\Debug\ProjeotJsonAjax.ApplicattionAjax.Migrations.InitialModel.resources
-F:\Projetos\ProjetoJsonAjax\ProjetoJsonAjax\ProjeotJsonAjax.ApplicattionAjax\obj\Debug\ProjeotJsonAjax.ApplicattionAjax.csproj.GenerateResource.cache

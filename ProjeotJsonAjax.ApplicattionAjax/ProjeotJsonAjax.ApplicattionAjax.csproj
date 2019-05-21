@@ -117,6 +117,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Contexto\ApplicationConnection.cs" />
+    <Compile Include="Controllers\ConsultaJsonController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -141,6 +142,11 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Home\ListarDados.cshtml" />
     <Content Include="Views\Home\_ListarDados.cshtml" />
+    <Content Include="Views\ConsultaJson\ListaDadosJson.cshtml" />
+    <Content Include="Views\ConsultaJson\ListaClienteJson.cshtml" />
+    <Content Include="Views\ConsultaJson\Index.cshtml" />
+    <Content Include="Views\ConsultaJson\GetCliente.cshtml" />
+    <Content Include="Views\ConsultaJson\Regiter.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

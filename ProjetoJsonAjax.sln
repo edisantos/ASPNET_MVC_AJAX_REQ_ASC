@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjeotJsonAjax.ApplicattionAjax", "ProjeotJsonAjax.ApplicattionAjax\ProjeotJsonAjax.ApplicattionAjax.csproj", "{302FFB36-6B94-448C-9D46-C65CF4DAFF95}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicos", "Servicos", "{FC299441-5D32-40DC-A87F-7C66C53FC956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{578961E2-2314-44E0-8D2D-69F814B2697A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{302FFB36-6B94-448C-9D46-C65CF4DAFF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{302FFB36-6B94-448C-9D46-C65CF4DAFF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{302FFB36-6B94-448C-9D46-C65CF4DAFF95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578961E2-2314-44E0-8D2D-69F814B2697A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578961E2-2314-44E0-8D2D-69F814B2697A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578961E2-2314-44E0-8D2D-69F814B2697A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578961E2-2314-44E0-8D2D-69F814B2697A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{578961E2-2314-44E0-8D2D-69F814B2697A} = {FC299441-5D32-40DC-A87F-7C66C53FC956}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2199BC9-1B74-4F29-B7F3-EB05D9F1ABCB}

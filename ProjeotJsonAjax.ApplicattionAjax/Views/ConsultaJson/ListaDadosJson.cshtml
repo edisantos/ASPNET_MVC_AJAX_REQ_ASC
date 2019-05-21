@@ -1,0 +1,43 @@
+﻿
+<div class="container">
+    <br /><br />
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sobre</th>
+                <th>Cidade</th>
+            </tr>
+            
+        </thead>
+        <tbody id="TbClientes">
+           
+        </tbody>
+    </table>
+</div>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+    function GetContact() {
+        $.ajax({
+            url: "/ConsultaJson/ListaDadosJson",
+            type: "GET",
+            contentType: "application/json; charset=utf-8",
+            data: "{}",
+            dataType: "json",
+            success: function (data) {
+                var row = "";
+                $.each(data, function (index, item) {
+                    row += "<tr><td><input type='checkbox'id='" + item.Id + "' name='chooseRecipient' class='my_chkBox' /></td><td>" + item.Name + "</td><td>" + item.MobileNumber + "</td></tr>";
+                });
+                $("#TbClientes").html(row);
+            },
+            error: function (result) {
+                alert("Error");
+            }
+        });
+    }
+
+    $('#getContacts').click(function () {
+        GetContact();
+    });
+</script>

@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "GetCliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>GetCliente</h2>
+
+<div class="container">
+    <div class="form-horizontal">
+        <div class="form-group">
+            <button type="button" class="btn btn-primary" id="btnEnviar">
+                <span class=""> Enviar</span>
+            </button>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+    $(function () {
+        $('#btnEnviar').click(function () {
+            var cliente = { Nome: 'go freelancer' }
+            $.ajax({
+                type: "POST",
+                contentType: "application/Json, charset=uf-8",
+                data: "{cliente: " + JSON.stringify(cliente) + "}",
+                url: "ConsultaJson/GetCliente",
+                success: function (data) {
+                    alert("cliente name" + data);
+                },
+                error: function (result) {
+                    alert("Something went wrong");
+                }
+            })
+        })
+    })
+</script>
